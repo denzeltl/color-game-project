@@ -34339,9 +34339,24 @@ video {
   width: 30%;
   padding-bottom: 30%;
   cursor: pointer;
+  transition: background 0.2s;
+  -webkit-transition: background 0.2s;
+  -moz-transition: background 0.2s;
 }
 
 .selected {
   background-color: #718096;
   color: white;
+}
+
+h1 {
+  transition: background 0.2s;
+  -webkit-transition: background 0.2s;
+  -moz-transition: background 0.2s;
+}
+
+.stripe {
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
 }
