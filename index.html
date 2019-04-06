@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Color Game Project</title>
+	<!-- <link rel="stylesheet" type="text/css" media="screen" href="css/bulma.css" /> -->
+	<link rel="stylesheet" type="text/css" media="screen" href="output.css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+		integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<!-- <link rel="stylesheet" href="css/debug.css"> -->
+</head>
+
+<body class="bg-gray-800">
+
+	<!-- header -->
+	<h1 class="text-bold text-white text-center text-4xl py-4 my-0 bg-gray-600"><span id="rgb" class="text-5xl">RGB (0,
+			0, 0)</span> </br> Guessing Game</h1>
+
+	<!-- stripe below header -->
+	<div class="flex bg-gray-300 text-gray-700 px-6 text-sm sm:px-5 sm:text-lg sm:px-24 md:px-32 lg:px-64 mx-auto">
+		<button class="flex-1 hover:bg-gray-600 hover:text-white p-1 rounded-md" id="newColors">New Colors</button>
+		<p class="flex-1 my-2 text-center comment mx-auto container"></p>
+		<div class="flex-1 px-0 text-center inline-block">
+			<button class="hover:bg-gray-600 hover:text-white p-2 rounded-md" id="easy">Easy</button>
+			<button class="hover:bg-gray-600 hover:text-white p-2 rounded-md selected" id="hard">Hard</button>
+		</div>
+	</div>
+
+	<!-- squares -->
+	<div class="m-12 mx-auto px-8 sm:max-w-md md:max-w-lg lg:max-w-xl">
+		<div class="float-left bg-teal-500 rounded-lg container squares"></div>
+		<div class="float-left bg-teal-500 rounded-lg container squares"></div>
+		<div class="float-left bg-teal-500 rounded-lg container squares"></div>
+		<div class="float-left bg-teal-500 rounded-lg container squares"></div>
+		<div class="float-left bg-teal-500 rounded-lg container squares"></div>
+		<div class="float-left bg-teal-500 rounded-lg container squares"></div>
+	</div>
+
+	<script src="main.js"></script>
+</body>
+
+</html>
